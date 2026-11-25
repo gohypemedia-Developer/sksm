@@ -1,0 +1,51 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Dev only: lets a phone on the same Wi-Fi open the dev server via this PC's LAN IP.
+  allowedDevOrigins: ["192.168.0.3"],
+  images: {
+    dangerouslyAllowSVG: true,
+    contentDispositionType: "attachment",
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 2592000, // 30 days cache for optimized images
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "pub-6c55b4a33c034944bc9030fd94d673db.r2.dev",
+      },
+      {
+        protocol: "https",
+        hostname: "*.r2.dev",
+      },
+      {
+        protocol: "https",
+        hostname: "img.youtube.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.ytimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "commondatastorage.googleapis.com",
+      },
+      {
+        protocol: "https",
+        hostname: "shrikrishnamsharnammamah.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.shopify.com",
+      },
+    ],
+  },
+};
+
+export default nextConfig;
