@@ -15,7 +15,7 @@ export const FOUNDATION = {
   bank: { name: "IDFC FIRST BANK", account: "68750508504", ifsc: "IDFB0020107", branch: "OKHLA BRANCH" },
 } as const;
 
-export const asset = (file: string) => `/sksm/${file}`;
+export const asset = (file: string) => (file.startsWith("/") ? file : `/sksm/${file}`);
 export const NAVIGATION = [
   ["/", "Home", "मुख्य पृष्ठ"],
   ["/about", "About", "परिचय"],
@@ -36,13 +36,17 @@ export const INITIATIVES = [
 
 export const GALLERY = [
   ["1.jpg", "Shri Krishna devotion", "श्रीकृष्ण भक्ति"],
-  ["2.jpg", "About the foundation", "संस्था का परिचय"],
-  ["3.jpg", "Patrons & guidance", "संरक्षक एवं मार्गदर्शन"],
-  ["4.jpg", "Founder members", "संस्थापक सदस्य"],
-  ["5.jpg", "Our foundation community", "फाउंडेशन परिवार"],
-  ["6.jpg", "Our foundation community", "फाउंडेशन परिवार"],
+  ["/images/krishna.jpg", "Shri Krishna Bhakti & Braj Heritage", "श्रीकृष्ण भक्ति एवं ब्रज विरासत"],
+  ["/images/vedic-gurukul-hd.jpg", "Vedic Gurukul & Sanskar", "वैदिक गुरुकुल एवं संस्कार"],
+  ["/images/card-seva-rect.webp", "Community & Annadanam Seva", "समाज सेवा एवं अन्नदान"],
+  ["/images/card-thought-rect.webp", "Sacred Ghats & Evening Aarti", "पावन घाट एवं संध्या आरती"],
+  ["/images/membership-hero-unity.jpg", "Bhakti Sankirtan & Community", "भक्ति संकीर्तन एवं समाज"],
   ["7.jpg", "Shri Banke Bihari temple vision", "श्री बांके बिहारी मंदिर का संकल्प"],
   ["8.jpg", "Temple campus & proposed services", "मंदिर परिसर एवं प्रस्तावित सेवाएँ"],
   ["9.jpg", "Our spiritual & cultural vision", "हमारा आध्यात्मिक एवं सांस्कृतिक संकल्प"],
   ["10.png", "Temple inspiration", "मंदिर की प्रेरणा"],
+  ["2.jpg", "About the foundation", "संस्था का परिचय"],
+  ["/images/pillar-women.jpg", "Women Empowerment & Seva", "महिला सशक्तिकरण एवं सेवा"],
+  ["/images/pillar-youth.webp", "Youth Empowerment & Education", "युवा सशक्तिकरण एवं शिक्षा"],
+  ["/images/pillar-farmer.jpg", "Farmer Welfare & Rural Seva", "किसान कल्याण एवं ग्राम सेवा"],
 ] as const;

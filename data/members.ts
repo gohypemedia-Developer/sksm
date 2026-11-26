@@ -20,7 +20,7 @@ export const patronMembers: Member[] = [
     company: "Mario Biscuit",
     category: "patron",
     subtitle: "Chairman • Mario Biscuit",
-    image: "/members/patrons/1.svg",
+    image: "/members/patrons/photos/1.png",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const patronMembers: Member[] = [
     company: "Brij Gopal Construction Company",
     category: "patron",
     subtitle: "Chairman • Brij Gopal Construction",
-    image: "/members/patrons/2.svg",
+    image: "/members/patrons/photos/2.png",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ export const patronMembers: Member[] = [
     role: "Vice Chairman",
     category: "patron",
     subtitle: "Vice Chairman",
-    image: "/members/patrons/3.svg",
+    image: "/members/patrons/photos/3.png",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ export const patronMembers: Member[] = [
     company: "KMG Milk Foods Ltd.",
     category: "patron",
     subtitle: "Exec. Vice Chairman • KMG Milk Foods",
-    image: "/members/patrons/4.svg",
+    image: "/members/patrons/photos/4.jpg",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ export const patronMembers: Member[] = [
     company: "Geeson & Resort Pvt Ltd.",
     category: "patron",
     subtitle: "Joint Secretary • Geeson & Resort",
-    image: "/members/patrons/5.svg",
+    image: "/members/patrons/photos/5.png",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ export const patronMembers: Member[] = [
     company: "Cocofoam Mattress",
     category: "patron",
     subtitle: "Exec. Chairman • Cocofoam Mattress",
-    image: "/members/patrons/6.svg",
+    image: "/members/patrons/photos/6.jpg",
   },
   {
     id: 7,
@@ -73,7 +73,7 @@ export const patronMembers: Member[] = [
     company: "Lal Bagh Ka Raja Trust (Regd)",
     category: "patron",
     subtitle: "Chairman • Lal Bagh Ka Raja Trust",
-    image: "/members/patrons/7.svg",
+    image: "/members/patrons/photos/7.jpg",
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ export const patronMembers: Member[] = [
     company: "Goel Group",
     category: "patron",
     subtitle: "Chairman • Goel Group",
-    image: "/members/patrons/8.svg",
+    image: "/members/patrons/photos/8.png",
   },
   {
     id: 9,
@@ -90,7 +90,7 @@ export const patronMembers: Member[] = [
     role: "Social Worker",
     category: "patron",
     subtitle: "Social Worker",
-    image: "/members/patrons/9.svg",
+    image: "/members/patrons/photos/9.png",
   },
   {
     id: 10,
@@ -99,7 +99,7 @@ export const patronMembers: Member[] = [
     company: "Maa Baglamukhi Shakti Peetham Trust",
     category: "patron",
     subtitle: "President • Maa Baglamukhi Trust",
-    image: "/members/patrons/10.svg",
+    image: "/members/patrons/photos/10.png",
   },
   {
     id: 11,
@@ -108,7 +108,7 @@ export const patronMembers: Member[] = [
     company: "Numax Realcon Pvt Ltd",
     category: "patron",
     subtitle: "MD • Numax Realcon Pvt Ltd",
-    image: "/members/patrons/11.svg",
+    image: "/members/patrons/photos/11.png",
   },
 ];
 
@@ -122,7 +122,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/001",
     category: "founder",
     subtitle: "President • SKSM/VIF/001",
-    image: "/members/founders/1.svg",
+    image: "/members/founders/photos/1.png",
   },
   {
     id: 2,
@@ -131,7 +131,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/003",
     category: "founder",
     subtitle: "General Secretary • SKSM/VIF/003",
-    image: "/members/founders/2.svg",
+    image: "/members/founders/photos/2.jpg",
   },
   {
     id: 3,
@@ -140,7 +140,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/002",
     category: "founder",
     subtitle: "Vice President • SKSM/VIF/002",
-    image: "/members/founders/3.svg",
+    image: "/members/founders/photos/3.png",
   },
   {
     id: 4,
@@ -149,7 +149,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/004",
     category: "founder",
     subtitle: "Treasurer • SKSM/VIF/004",
-    image: "/members/founders/4.svg",
+    image: "/members/founders/photos/4.png",
   },
   {
     id: 5,
@@ -159,7 +159,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/019",
     category: "founder",
     subtitle: "Narain Prabhu Jewellers",
-    image: "/members/founders/5.svg",
+    image: "/members/founders/photos/5.png",
   },
   {
     id: 6,
@@ -169,7 +169,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/013",
     category: "founder",
     subtitle: "Akash Appliances",
-    image: "/members/founders/6.svg",
+    image: "/members/founders/photos/6.png",
   },
   {
     id: 7,
@@ -179,7 +179,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/006",
     category: "founder",
     subtitle: "GDK-Jewels Pvt Ltd",
-    image: "/members/founders/7.svg",
+    image: "/members/founders/photos/7.png",
   },
   {
     id: 8,
@@ -189,7 +189,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/015",
     category: "founder",
     subtitle: "Prem Impex",
-    image: "/members/founders/8.svg",
+    image: "/members/founders/photos/8.png",
   },
   {
     id: 9,
@@ -199,7 +199,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/016",
     category: "founder",
     subtitle: "Sahyog Properties",
-    image: "/members/founders/9.svg",
+    image: "/members/founders/photos/9.png",
   },
   {
     id: 10,
@@ -209,7 +209,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/017",
     category: "founder",
     subtitle: "MK Aggarwal & Co.",
-    image: "/members/founders/10.svg",
+    image: "/members/founders/photos/10.png",
   },
   {
     id: 11,
@@ -218,7 +218,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/018",
     category: "founder",
     subtitle: "SKSM/VIF/018",
-    image: "/members/founders/11.svg",
+    image: "/members/founders/photos/11.png",
   },
   {
     id: 12,
@@ -227,7 +227,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/019",
     category: "founder",
     subtitle: "SKSM/VIF/019",
-    image: "/members/founders/12.svg",
+    image: "/members/founders/photos/12.png",
   },
   {
     id: 13,
@@ -237,7 +237,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/009",
     category: "founder",
     subtitle: "Juris Law Offices",
-    image: "/members/founders/13.svg",
+    image: "/members/founders/photos/13.png",
   },
   {
     id: 14,
@@ -247,7 +247,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/007",
     category: "founder",
     subtitle: "KMG Milk Foods",
-    image: "/members/founders/14.svg",
+    image: "/members/founders/photos/14.png",
   },
   {
     id: 15,
@@ -257,7 +257,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/020",
     category: "founder",
     subtitle: "SDA Print Pack",
-    image: "/members/founders/15.svg",
+    image: "/members/founders/photos/15.png",
   },
   {
     id: 16,
@@ -267,7 +267,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/021",
     category: "founder",
     subtitle: "Dhanesh Gupta Plo",
-    image: "/members/founders/16.svg",
+    image: "/members/founders/photos/16.png",
   },
   {
     id: 17,
@@ -276,7 +276,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/022",
     category: "founder",
     subtitle: "SKSM/VIF/022",
-    image: "/members/founders/17.svg",
+    image: "/members/founders/photos/17.png",
   },
   {
     id: 18,
@@ -286,7 +286,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/023",
     category: "founder",
     subtitle: "Faith Pharmaceuticals Ltd",
-    image: "/members/founders/18.svg",
+    image: "/members/founders/photos/18.png",
   },
   {
     id: 19,
@@ -296,7 +296,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/005",
     category: "founder",
     subtitle: "Geeson Hotel & Resorts",
-    image: "/members/founders/19.svg",
+    image: "/members/founders/photos/19.jpg",
   },
   {
     id: 20,
@@ -306,7 +306,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/024",
     category: "founder",
     subtitle: "Souvinier Publishers",
-    image: "/members/founders/20.svg",
+    image: "/members/founders/photos/20.png",
   },
   {
     id: 21,
@@ -316,7 +316,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/025",
     category: "founder",
     subtitle: "Roxfield Public School",
-    image: "/members/founders/21.svg",
+    image: "/members/founders/photos/21.png",
   },
   {
     id: 22,
@@ -326,7 +326,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/026",
     category: "founder",
     subtitle: "HK Gupta & Co",
-    image: "/members/founders/22.svg",
+    image: "/members/founders/photos/22.png",
   },
   {
     id: 23,
@@ -336,7 +336,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/027",
     category: "founder",
     subtitle: "SRG Jewellers Pvt Ltd",
-    image: "/members/founders/23.svg",
+    image: "/members/founders/photos/23.png",
   },
   {
     id: 24,
@@ -346,7 +346,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/028",
     category: "founder",
     subtitle: "Vivalia Remedies Pvt. Ltd",
-    image: "/members/founders/24.svg",
+    image: "/members/founders/photos/24.png",
   },
   {
     id: 25,
@@ -356,7 +356,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/029",
     category: "founder",
     subtitle: "Singhal Estate",
-    image: "/members/founders/25.svg",
+    image: "/members/founders/photos/25.png",
   },
   {
     id: 26,
@@ -366,7 +366,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/030",
     category: "founder",
     subtitle: "M.K Enterprises",
-    image: "/members/founders/26.svg",
+    image: "/members/founders/photos/26.png",
   },
   {
     id: 27,
@@ -376,7 +376,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/031",
     category: "founder",
     subtitle: "Baba Steel",
-    image: "/members/founders/27.svg",
+    image: "/members/founders/photos/27.png",
   },
   {
     id: 28,
@@ -386,7 +386,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/032",
     category: "founder",
     subtitle: "SLS Innovations",
-    image: "/members/founders/28.svg",
+    image: "/members/founders/photos/28.png",
   },
   {
     id: 29,
@@ -395,7 +395,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/033",
     category: "founder",
     subtitle: "SKSM/VIF/033",
-    image: "/members/founders/29.svg",
+    image: "/members/founders/photos/29.png",
   },
   {
     id: 30,
@@ -405,7 +405,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/034",
     category: "founder",
     subtitle: "Sampann Motors",
-    image: "/members/founders/30.svg",
+    image: "/members/founders/photos/30.png",
   },
   {
     id: 31,
@@ -415,7 +415,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/035",
     category: "founder",
     subtitle: "Shiv Plastic",
-    image: "/members/founders/31.svg",
+    image: "/members/founders/photos/31.png",
   },
   {
     id: 32,
@@ -425,7 +425,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/036",
     category: "founder",
     subtitle: "Fortune World School",
-    image: "/members/founders/32.svg",
+    image: "/members/founders/photos/32.png",
   },
   {
     id: 33,
@@ -435,7 +435,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/037",
     category: "founder",
     subtitle: "Duratuf Glass Industries",
-    image: "/members/founders/33.svg",
+    image: "/members/founders/photos/33.png",
   },
   {
     id: 34,
@@ -445,7 +445,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/011",
     category: "founder",
     subtitle: "Satya Prakashan Group",
-    image: "/members/founders/34.svg",
+    image: "/members/founders/photos/34.png",
   },
   {
     id: 35,
@@ -455,7 +455,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/012",
     category: "founder",
     subtitle: "Aeon Cereals Ltd",
-    image: "/members/founders/35.svg",
+    image: "/members/founders/photos/35.png",
   },
   {
     id: 36,
@@ -465,7 +465,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/039",
     category: "founder",
     subtitle: "Thukral Growth Advisory",
-    image: "/members/founders/36.svg",
+    image: "/members/founders/photos/36.png",
   },
   {
     id: 37,
@@ -475,7 +475,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/040",
     category: "founder",
     subtitle: "R.Plaha and Associates",
-    image: "/members/founders/37.svg",
+    image: "/members/founders/photos/37.png",
   },
   {
     id: 38,
@@ -485,7 +485,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/041",
     category: "founder",
     subtitle: "Mahalaxmi Trading Company",
-    image: "/members/founders/38.svg",
+    image: "/members/founders/photos/38.png",
   },
   {
     id: 39,
@@ -495,7 +495,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/042",
     category: "founder",
     subtitle: "R.K Enterprises",
-    image: "/members/founders/39.svg",
+    image: "/members/founders/photos/39.png",
   },
   {
     id: 40,
@@ -505,7 +505,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/043",
     category: "founder",
     subtitle: "V.R. Box Makers",
-    image: "/members/founders/40.svg",
+    image: "/members/founders/photos/40.png",
   },
   {
     id: 41,
@@ -515,7 +515,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/044",
     category: "founder",
     subtitle: "Raj Cleanwel Exim",
-    image: "/members/founders/41.svg",
+    image: "/members/founders/photos/41.png",
   },
   {
     id: 42,
@@ -524,7 +524,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/045",
     category: "founder",
     subtitle: "Spiritual Guide • SKSM/VIF/045",
-    image: "/members/founders/42.svg",
+    image: "/members/founders/photos/42.png",
   },
   {
     id: 43,
@@ -534,7 +534,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/046",
     category: "founder",
     subtitle: "Sahyog Realcon Ltd",
-    image: "/members/founders/43.svg",
+    image: "/members/founders/photos/43.png",
   },
   {
     id: 44,
@@ -544,7 +544,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/047",
     category: "founder",
     subtitle: "Beri Overseas",
-    image: "/members/founders/44.svg",
+    image: "/members/founders/photos/44.png",
   },
   {
     id: 45,
@@ -554,7 +554,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/048",
     category: "founder",
     subtitle: "Shri Maa Tapeshwari Imper",
-    image: "/members/founders/45.svg",
+    image: "/members/founders/photos/45.png",
   },
   {
     id: 46,
@@ -564,7 +564,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/049",
     category: "founder",
     subtitle: "Siya General Trading",
-    image: "/members/founders/46.svg",
+    image: "/members/founders/photos/46.png",
   },
   {
     id: 47,
@@ -573,7 +573,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/050",
     category: "founder",
     subtitle: "SKSM/VIF/050",
-    image: "/members/founders/47.svg",
+    image: "/members/founders/photos/47.png",
   },
   {
     id: 48,
@@ -583,7 +583,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/051",
     category: "founder",
     subtitle: "Sankalp Builders",
-    image: "/members/founders/48.svg",
+    image: "/members/founders/photos/48.png",
   },
   {
     id: 49,
@@ -593,7 +593,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/052",
     category: "founder",
     subtitle: "M/S Atlas Chemical Indus",
-    image: "/members/founders/49.svg",
+    image: "/members/founders/photos/49.png",
   },
   {
     id: 50,
@@ -603,7 +603,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/053",
     category: "founder",
     subtitle: "Paras Polycab Pvt Ltd",
-    image: "/members/founders/50.svg",
+    image: "/members/founders/photos/50.png",
   },
   {
     id: 51,
@@ -613,7 +613,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/008",
     category: "founder",
     subtitle: "Dolphin Fincap(I) Pvt Ltd",
-    image: "/members/founders/51.svg",
+    image: "/members/founders/photos/51.png",
   },
   {
     id: 52,
@@ -623,7 +623,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/054",
     category: "founder",
     subtitle: "Fortune World School",
-    image: "/members/founders/52.svg",
+    image: "/members/founders/photos/52.png",
   },
   {
     id: 53,
@@ -633,7 +633,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/055",
     category: "founder",
     subtitle: "Argus Logistics Pvt Ltd",
-    image: "/members/founders/53.svg",
+    image: "/members/founders/photos/53.png",
   },
   {
     id: 54,
@@ -643,7 +643,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/056",
     category: "founder",
     subtitle: "Ram Ratan Group",
-    image: "/members/founders/54.svg",
+    image: "/members/founders/photos/54.png",
   },
   {
     id: 55,
@@ -653,7 +653,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/057",
     category: "founder",
     subtitle: "Bravim Chemicals",
-    image: "/members/founders/55.svg",
+    image: "/members/founders/photos/55.png",
   },
   {
     id: 56,
@@ -663,7 +663,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/058",
     category: "founder",
     subtitle: "Sahyog Properties",
-    image: "/members/founders/56.svg",
+    image: "/members/founders/photos/56.png",
   },
   {
     id: 57,
@@ -673,7 +673,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/060",
     category: "founder",
     subtitle: "Nagarmal Radheyshyam",
-    image: "/members/founders/57.svg",
+    image: "/members/founders/photos/57.png",
   },
   {
     id: 58,
@@ -683,7 +683,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/061",
     category: "founder",
     subtitle: "Maa Baglamukhi Trust",
-    image: "/members/founders/58.svg",
+    image: "/members/founders/photos/58.png",
   },
   {
     id: 59,
@@ -693,7 +693,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/062",
     category: "founder",
     subtitle: "Amit Enterprises",
-    image: "/members/founders/59.svg",
+    image: "/members/founders/photos/59.png",
   },
   {
     id: 60,
@@ -703,7 +703,7 @@ export const founderMembers: Member[] = [
     memberId: "SKSM/VIF/063",
     category: "founder",
     subtitle: "L F W Yogesh LLP",
-    image: "/members/founders/60.svg",
+    image: "/members/founders/photos/60.png",
   },
 ];
 

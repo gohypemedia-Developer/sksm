@@ -15,18 +15,18 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#FBF2E7] border-t border-[#E7D8C8] text-[#2B201A] relative pt-16 pb-12">
+    <footer className="bg-[#FBF2E7] border-t border-[#E7D8C8] text-[#2B201A] relative pt-14 pb-5">
       <div className="page-container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.9fr_1fr_1.3fr] gap-8 xl:gap-10 pb-12 border-b border-[#E7D8C8]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.9fr_1fr_1.3fr] gap-8 xl:gap-10 pb-8 border-b border-[#E7D8C8]">
           {/* Brand & About */}
           <div className="space-y-4">
             <div className="flex items-center gap-3.5">
-              <div className="relative w-14 h-14 rounded-full overflow-hidden border-2 border-[#B8893E] bg-white shadow-sm shrink-0">
+              <div className="relative w-[68px] h-[62px] xl:w-[74px] xl:h-[68px] shrink-0">
                 <Image
-                  src="/sksm/logo.png"
+                  src="/sksm/logo.svg"
                   alt="Shri Krishnam Sharnam Mamah Foundation Logo"
                   fill
-                  className="object-contain p-0.5"
+                  className="object-contain"
                 />
               </div>
               <div className="flex flex-col justify-center">
@@ -156,7 +156,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#2B201A]/75 font-medium text-center sm:text-left">
+        <div className="pt-5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#2B201A]/75 font-medium text-center sm:text-left">
           <p>
             {lang === "hi"
               ? `© ${new Date().getFullYear()} श्री कृष्ण शरणम् ममः फाउंडेशन। सर्वाधिकार सुरक्षित।`

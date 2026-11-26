@@ -86,7 +86,7 @@ export default function ParallaxPillarCard({
             : "transform 0.5s ease-out, box-shadow 0.5s ease-out",
           transformStyle: "preserve-3d",
         }}
-        className="relative h-full rounded-3xl bg-white border border-[#E86F1D] shadow-[0_8px_24px_-4px_rgba(43,32,26,0.06)] hover:shadow-[0_24px_48px_-10px_rgba(232,111,29,0.25)] flex flex-col justify-between overflow-hidden group will-change-transform"
+        className="relative h-full rounded-xl bg-white border border-[#E86F1D] shadow-[0_8px_24px_-4px_rgba(43,32,26,0.06)] hover:shadow-[0_24px_48px_-10px_rgba(232,111,29,0.25)] flex flex-col justify-between overflow-hidden group will-change-transform"
       >
         <div>
           {/* Parallax Image Viewport */}

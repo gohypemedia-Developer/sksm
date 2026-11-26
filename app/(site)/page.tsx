@@ -480,109 +480,81 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* IMPACT COUNTERS STRIP (Unified single verified dataset per Image 3 finding 4 & 2019 registration) */}
+      {/* IMPACT COUNTERS STRIP */}
       <SectionReveal className="py-16 sm:py-20 lg:py-24 bg-[#FFF8F0] border-y border-[#E7D8C8]/60">
         <div className="page-container">
           <StaggerContainer className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-4 items-center justify-between text-center">
-            {/* 1. Members: Verified 21,000+ */}
-            <StaggerItem className="flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2 relative lg:after:content-[''] lg:after:absolute lg:after:right-0 lg:after:top-1/2 lg:after:-translate-y-1/2 lg:after:w-[1px] lg:after:h-[60%] lg:after:bg-[#E6E6E6]/60">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 relative flex items-center justify-center">
-                <Image
-                  src="/sksm/9.jpg"
-                  alt="Temple Vision"
-                  width={48}
-                  height={48}
-                  priority
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="font-sans font-bold text-2xl sm:text-3xl lg:text-[32px] text-[#E86F1D] leading-tight tracking-tight">
-                <CountUp start={0} end={1} suffix="" duration={1600} />
-              </div>
-              <div className="font-sans text-xs sm:text-[13px] md:text-sm font-bold text-black uppercase tracking-wider leading-snug">
-                {lang === "hi" ? "मंदिर का संकल्प" : "Temple Vision"}
-              </div>
-            </StaggerItem>
-
-            {/* 2. Events: Verified 280+ */}
-            <StaggerItem className="flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2 relative lg:after:content-[''] lg:after:absolute lg:after:right-0 lg:after:top-1/2 lg:after:-translate-y-1/2 lg:after:w-[1px] lg:after:h-[60%] lg:after:bg-[#E6E6E6]/60">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 relative flex items-center justify-center">
-                <Image
-                  src="/sksm/9.jpg"
-                  alt="Planned Facilities"
-                  width={48}
-                  height={48}
-                  priority
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="font-sans font-bold text-2xl sm:text-3xl lg:text-[32px] text-[#E86F1D] leading-tight tracking-tight">
-                <CountUp start={0} end={3} suffix="" duration={1400} />
-              </div>
-              <div className="font-sans text-xs sm:text-[13px] md:text-sm font-bold text-black uppercase tracking-wider leading-snug">
-                {lang === "hi" ? "प्रस्तावित सुविधाएँ" : "Planned Facilities"}
-              </div>
-            </StaggerItem>
-
-            {/* 3. Cities: Verified 35+ */}
-            <StaggerItem className="flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2 relative lg:after:content-[''] lg:after:absolute lg:after:right-0 lg:after:top-1/2 lg:after:-translate-y-1/2 lg:after:w-[1px] lg:after:h-[60%] lg:after:bg-[#E6E6E6]/60">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 relative flex items-center justify-center">
-                <Image
-                  src="/sksm/9.jpg"
-                  alt="Key Initiatives"
-                  width={48}
-                  height={48}
-                  priority
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="font-sans font-bold text-2xl sm:text-3xl lg:text-[32px] text-[#E86F1D] leading-tight tracking-tight">
-                <CountUp start={0} end={5} suffix="" duration={1200} />
-              </div>
-              <div className="font-sans text-xs sm:text-[13px] md:text-sm font-bold text-black uppercase tracking-wider leading-snug">
-                {lang === "hi" ? "मुख्य सेवा कार्य" : "Key Initiatives"}
-              </div>
-            </StaggerItem>
-
-            {/* 4. Impacted: Verified 85,000+ */}
-            <StaggerItem className="flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2 relative lg:after:content-[''] lg:after:absolute lg:after:right-0 lg:after:top-1/2 lg:after:-translate-y-1/2 lg:after:w-[1px] lg:after:h-[60%] lg:after:bg-[#E6E6E6]/60">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 relative flex items-center justify-center">
-                <Image
-                  src="/sksm/9.jpg"
-                  alt="Shared Mission"
-                  width={48}
-                  height={48}
-                  priority
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="font-sans font-bold text-2xl sm:text-3xl lg:text-[32px] text-[#E86F1D] leading-tight tracking-tight">
-                <CountUp start={0} end={1} suffix="" duration={1800} />
-              </div>
-              <div className="font-sans text-xs sm:text-[13px] md:text-sm font-bold text-black uppercase tracking-wider leading-snug">
-                {lang === "hi" ? "लाभान्वित परिवार" : "Shared Mission"}
-              </div>
-            </StaggerItem>
-
-            {/* 5. Years of Seva: Verified 7+ (matching Trust established in 2019) */}
-            <StaggerItem className="col-span-2 md:col-span-1 flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 relative flex items-center justify-center">
-                <Image
-                  src="/sksm/9.jpg"
-                  alt="Service Pillars"
-                  width={48}
-                  height={48}
-                  priority
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <div className="font-sans font-bold text-2xl sm:text-3xl lg:text-[32px] text-[#E86F1D] leading-tight tracking-tight">
-                <CountUp start={0} end={4} suffix="" duration={1000} />
-              </div>
-              <div className="font-sans text-xs sm:text-[13px] md:text-sm font-bold text-black uppercase tracking-wider leading-snug">
-                {lang === "hi" ? "सेवा स्तंभ" : "Service Pillars"}
-              </div>
-            </StaggerItem>
+            {[
+              {
+                image: "/images/stat-members.png",
+                alt: "Members",
+                end: 25000,
+                duration: 1600,
+                labelEn: "Members",
+                labelHi: "सदस्य",
+              },
+              {
+                image: "/images/stat-events.png",
+                alt: "Events",
+                end: 350,
+                duration: 1400,
+                labelEn: "Events",
+                labelHi: "कार्यक्रम",
+              },
+              {
+                image: "/images/stat-cities.png",
+                alt: "Cities Served",
+                end: 50,
+                duration: 1200,
+                labelEn: "Cities Served",
+                labelHi: "शहरों में सेवा",
+              },
+              {
+                image: "/images/stat-impacted.png",
+                alt: "People Impacted",
+                end: 100000,
+                duration: 1800,
+                labelEn: "People Impacted",
+                labelHi: "लाभान्वित जन",
+              },
+              {
+                image: "/images/stat-years.png",
+                alt: "Years of Seva",
+                end: 15,
+                duration: 1000,
+                labelEn: "Years of Seva",
+                labelHi: "सेवा के वर्ष",
+              },
+            ].map((stat, idx, arr) => {
+              const isLast = idx === arr.length - 1;
+              return (
+                <StaggerItem
+                  key={stat.alt}
+                  className={`${
+                    isLast
+                      ? "col-span-2 md:col-span-1"
+                      : "relative lg:after:content-[''] lg:after:absolute lg:after:right-0 lg:after:top-1/2 lg:after:-translate-y-1/2 lg:after:w-[1px] lg:after:h-[60%] lg:after:bg-[#E6E6E6]/60"
+                  } flex flex-col items-center justify-center text-center gap-1.5 sm:gap-2`}
+                >
+                  <div className="w-11 h-11 sm:w-12 sm:h-12 relative flex items-center justify-center">
+                    <Image
+                      src={stat.image}
+                      alt={stat.alt}
+                      width={48}
+                      height={48}
+                      priority
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <div className="font-sans font-bold text-2xl sm:text-3xl lg:text-[32px] text-[#E86F1D] leading-tight tracking-tight">
+                    <CountUp start={0} end={stat.end} suffix="+" duration={stat.duration} />
+                  </div>
+                  <div className="font-sans text-xs sm:text-[13px] md:text-sm font-bold text-black uppercase tracking-wider leading-snug">
+                    {lang === "hi" ? stat.labelHi : stat.labelEn}
+                  </div>
+                </StaggerItem>
+              );
+            })}
           </StaggerContainer>
         </div>
       </SectionReveal>
@@ -643,7 +615,7 @@ export default function HomePage() {
             {/* 2. Vision */}
             <StaggerItem className="h-full">
               <ParallaxPillarCard
-                imageSrc="/sksm/4.jpg"
+                imageSrc="/images/card-thought-rect.webp"
                 imageAlt="Our Vision"
                 title={lang === "hi" ? "हमारा दृष्टिकोण" : "Our Vision"}
                 description={
@@ -659,7 +631,7 @@ export default function HomePage() {
             {/* 3. Join Us */}
             <StaggerItem className="h-full">
               <ParallaxPillarCard
-                imageSrc="/sksm/3.jpg"
+                imageSrc="/images/membership-hero-unity.jpg"
                 imageAlt="Join Us"
                 title={lang === "hi" ? "हमसे जुड़ें" : "Join Us"}
                 description={
@@ -675,7 +647,7 @@ export default function HomePage() {
             {/* 4. Support Us */}
             <StaggerItem className="h-full">
               <ParallaxPillarCard
-                imageSrc="/sksm/8.jpg"
+                imageSrc="/images/card-seva-rect.webp"
                 imageAlt="Support Us"
                 title={lang === "hi" ? "सहयोग करें" : "Support Us"}
                 description={

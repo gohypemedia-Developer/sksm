@@ -9,6 +9,35 @@ import { Globe, Menu, X, Heart, User } from "lucide-react";
 import { useApp } from "@/context/AppContext";
 import { useSmoothScroll } from "@/components/animation/SmoothScrollProvider";
 
+function BrandWordmark({
+  isHindi,
+  titleClassName,
+  subtitleClassName,
+}: {
+  isHindi: boolean;
+  titleClassName: string;
+  subtitleClassName: string;
+}) {
+  return (
+    <div className="flex flex-col min-w-0 justify-center">
+      <span
+        className={`font-editorial font-bold text-[#2B201A] leading-tight ${
+          isHindi ? "tracking-normal" : "tracking-tight"
+        } ${titleClassName}`}
+      >
+        {isHindi ? "श्री कृष्ण" : "SHRI KRISHNAM"}
+      </span>
+      <span
+        className={`font-extrabold text-[#B8893E] ${
+          isHindi ? "tracking-normal" : "uppercase"
+        } ${subtitleClassName}`}
+      >
+        {isHindi ? "शरणम् ममः फाउंडेशन" : "SHARNAM MAMAH FOUNDATION"}
+      </span>
+    </div>
+  );
+}
+
 export default function Header() {
   const pathname = usePathname();
   const { lang, setLang, openDonateModal, user, isLoadingUser, openAuthModal } = useApp();
@@ -85,14 +114,13 @@ export default function Header() {
                 priority
               />
             </div>
-            <div className="flex flex-col shrink-0 justify-center">
-              <span className="font-editorial text-[13px] lg:text-[14px] xl:text-[17px] 2xl:text-xl font-bold tracking-tight text-[#2B201A] leading-tight group-hover:text-[#E86F1D] transition-colors whitespace-nowrap">
-                SKSM
-              </span>
-              <span className="text-[8px] lg:text-[8.5px] xl:text-[10.5px] 2xl:text-xs font-extrabold tracking-[0.12em] xl:tracking-[0.14em] text-[#B8893E] uppercase whitespace-nowrap">
-                FOUNDATION
-              </span>
-            </div>
+            <BrandWordmark
+              isHindi={lang === "hi"}
+              titleClassName="text-[13px] lg:text-[14px] xl:text-[17px] 2xl:text-xl group-hover:text-[#E86F1D] transition-colors whitespace-nowrap"
+              subtitleClassName={`text-[8px] lg:text-[8.5px] xl:text-[10.5px] 2xl:text-xs whitespace-nowrap ${
+                lang === "hi" ? "" : "tracking-[0.12em] xl:tracking-[0.14em]"
+              }`}
+            />
           </Link>
 
           {/* 2. CENTER: Navigation Menu */}
@@ -177,14 +205,13 @@ export default function Header() {
                 priority
               />
             </div>
-            <div className="flex flex-col min-w-0 shrink">
-              <span className="font-editorial text-sm sm:text-base font-bold tracking-tight text-[#2B201A] leading-tight truncate">
-                SKSM
-              </span>
-              <span className="text-[8.5px] sm:text-[9.5px] font-bold tracking-[0.12em] text-[#B8893E] uppercase truncate">
-                FOUNDATION
-              </span>
-            </div>
+            <BrandWordmark
+              isHindi={lang === "hi"}
+              titleClassName="text-[11px] sm:text-base truncate"
+              subtitleClassName={`text-[7px] sm:text-[9.5px] truncate ${
+                lang === "hi" ? "" : "tracking-[0.04em] sm:tracking-[0.12em]"
+              }`}
+            />
           </Link>
 
           {/* Mobile Controls: Orange Donate Button (ALWAYS VISIBLE per PM Audit) + Language + Cart + Account + Hamburger */}
@@ -269,14 +296,13 @@ export default function Header() {
                       className="object-contain"
                     />
                   </div>
-                  <div>
-                    <h3 className="font-editorial text-xs font-bold text-[#2B201A] leading-tight">
-                      SKSM
-                    </h3>
-                    <p className="text-[8px] font-bold tracking-widest text-[#B8893E] uppercase">
-                      FOUNDATION
-                    </p>
-                  </div>
+                  <BrandWordmark
+                    isHindi={lang === "hi"}
+                    titleClassName="text-xs sm:text-sm whitespace-nowrap"
+                    subtitleClassName={`text-[8px] sm:text-[8.5px] whitespace-nowrap ${
+                      lang === "hi" ? "" : "tracking-[0.1em]"
+                    }`}
+                  />
                 </div>
 
                 <button
